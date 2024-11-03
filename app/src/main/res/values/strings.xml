@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">BudgetBuddy</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="re_enter_your_password">Re-enter your password</string>
+    <string name="termsAndConditions">I have read and agree to the terms and conditions</string>
+    <string name="signupButton">Sign up</string>
+    <style name="AppTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:windowBackground">@drawable/main</item>
+
+
+</style>
+
 </resources>
