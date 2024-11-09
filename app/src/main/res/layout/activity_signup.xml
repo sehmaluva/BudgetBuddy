@@ -8,12 +8,35 @@
    >
 
     <EditText
-        android:id="@+id/signupUsername"
+        android:id="@+id/firstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints=""
-        android:hint="@string/enter_username"
-        android:inputType=""/>
+        android:hint="@string/enter_firstname"
+        android:inputType=""
+
+        android:layout_marginBottom="15sp"/>
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/enter_lastname"
+        android:inputType=""
+
+        android:layout_marginBottom="15sp"/>
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+
+        android:hint="@string/enter_phoneNumber"
+        android:inputType="phone"
+        android:layout_marginBottom="15sp" />
 
     <EditText
         android:id="@+id/signupEmail"
@@ -21,27 +44,36 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:hint="@string/enter_your_email_address"
-        android:inputType="textEmailAddress"/>
+        android:inputType="textEmailAddress"
+
+        android:layout_marginBottom="15sp"/>
+
     <EditText
         android:id="@+id/signupPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:hint="@string/enter_password"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+
+        android:layout_marginBottom="15sp"/>
+
     <EditText
         android:id="@+id/confirmPassoword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/re_enter_your_password"
         android:autofillHints=""
-        android:inputType=""/>
+        android:inputType=""
+
+        android:layout_marginBottom="15sp"/>
 
     <CheckBox
         android:id="@+id/termsAndConditions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/termsAndConditions"/>
+        android:text="@string/termsAndConditions"
+        android:layout_marginBottom="15sp"/>
 
     <Button
         android:id="@+id/Signup"

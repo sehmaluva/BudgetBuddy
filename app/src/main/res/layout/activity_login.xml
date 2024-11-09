@@ -3,7 +3,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    >
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="30sp"
+        android:layout_marginBottom="20sp"/>
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/enter_your_email_address"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="15sp"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="15sp"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/login"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:id="@+id/linkToSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account  Signup"
+        android:layout_marginBottom="20sp"/>
+
+
 
 
 </LinearLayout>
